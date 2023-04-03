@@ -1,0 +1,68 @@
+.Gallery_inner {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Masonry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 15px;
+
+}
+.FadeAction {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.FadeAction:before {
+  background: none;
+  transition: all 5s linear;
+}
+
+.FadeAction:hover:before {
+  content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(2,2,2, 0.5);
+    transition: all 5s linear;
+}
+
+.FadeAction:after {
+  position: relative;
+
+}
+
+.FadeAction:hover .FadeContent {
+  display: block;
+}
+
+.Masonry img {
+    height: 197px;
+}
+
+
+.FadeContent {
+  position: absolute;
+  color: white;
+  display:none;
+}
+
+.c1, .c4 {
+  bottom: 85px;
+  left: 170px;
+}
+
+.c2, .c3 {
+  bottom: 85px;
+  left: 40px;
+}
+
+.c5{
+  bottom: 215px;
+  left: 100px;
+}

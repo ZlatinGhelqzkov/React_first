@@ -1,0 +1,38 @@
+.Section_body {
+  padding-bottom: 100px;
+}
+
+.ServiceCards {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+  box-shadow: 1px 5px 10px lightgray;
+}
+
+.ServiceCard_inner {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+}
+
+.ServiceCard_inner:last-child {
+  border: none;
+}
+
+.ServiceCard_inner img {
+  margin-bottom: 25px;
+}
+
+.ServiceCard_inner h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.ServiceCard_inner p {
+  font-size: 14px;
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+}
