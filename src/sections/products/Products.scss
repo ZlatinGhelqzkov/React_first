@@ -2,7 +2,7 @@
   font-size: 40px;
   text-align: center;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .Section_head p {
@@ -10,7 +10,7 @@
   text-align: center;
   width: 590px;
   margin: 20px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .Product_content {
@@ -31,7 +31,7 @@
 .ProductCard h2 {
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   width: 240px;
   line-height: 20px;
@@ -44,7 +44,7 @@
 
 .ProductCard ul li h6 {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -68,47 +68,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #828BB2;
+  background-color: #828bb2;
   max-width: 30px;
   max-height: 30px;
   padding: 4px;
   margin: 5px;
   border-radius: 50%;
-}
-
-.Buttons ul li:nth-child(1):hover:before {
-  position: absolute;
-  left: 40px;
-  content: "Add to Bag";
-  color: black;
-  z-index: 10;
-  width: 100px;
-  padding: 20px;
-}
-
-.Buttons ul li:nth-child(2):hover:before {
-  position: absolute;
-  left: 40px;
-  content: "Wishlist";
-  color: black;
-  z-index: 10;
-  width: 100px;
-}
-
-.Buttons ul li:nth-child(3):hover:before {
-  position: absolute;
-  left: 40px;
-  content: "Compare";
-  color: black;
-  z-index: 10;
-  width: 100px;
-}
-
-.Buttons ul li:nth-child(4):hover:before {
-  position: absolute;
-  left: 40px;
-  content: "View More";
-  color: black;
-  z-index: 10;
-  width: 100px;
+  cursor: pointer;
 }
